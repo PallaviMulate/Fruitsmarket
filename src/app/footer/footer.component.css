@@ -1,0 +1,42 @@
+.container{
+    
+    background: #f73441;
+}
+.navbar-nav{
+    color: white;
+    background: #f73441;
+    margin-left: 0px;
+    font-size:large;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.nav-link{
+
+    color: white;
+}
+.div1{
+
+    
+    text-align:right;
+   
+}
+
+.large-screen{
+    visibility: visible;
+    display: block;
+}
+.small-screen{
+    visibility: hidden;
+    display: none;
+}
+
+@media screen and (max-width:600){
+    .large-screen{
+        visibility: hidden;
+        display: none;
+    }
+    .small-screen{
+        visibility: visible;
+        display:block;
+    }
+}

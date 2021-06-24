@@ -1,0 +1,21 @@
+
+.acontainer{
+    margin-top: 600px;
+    margin-left: 500px;
+    position: absolute;
+    top: 0;
+    height: auto;
+    width: 900px;
+    background: rgb(248, 207, 207);
+    border-radius: 5px;
+
+}
+.im{
+    float: left;
+    position: relative;
+    display: inline-block;
+    width:480px;
+   }
+
+   
+ 
